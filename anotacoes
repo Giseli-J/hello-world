@@ -1,0 +1,67 @@
+Git e GitHub
+
+Conceitos principais: repositories, branches, commits, e Pull Requests. 
+Anotação para comandos individuais (Git): 
+init
+add
+commit
+push
+remote
+merge
+branch
+tag
+switch e chackout
+fetch
+pull
+log
+diff
+
+Criando um Repositório no GitHub: 
+Um respositório é utilizado para organizar um projeto. É recomendado incluir o README que é um arquivo com a informação do projeto. No GitHub é oferecido na criação também o arquivo de licença uso. 
+
+Criando um Branch - Ramificação:
+Ramificação é a maneira de trabalhar em diferentes versões de um repositório ao mesmo tempo. 
+Por definição o repositório tem uma um nome de ramificação chamado MAIN que é considerado a ramificação definitiva. Usamos as ramificações para experimentar e fazer edições antes de committing (enviar) essas alterações para o MAIN.
+
+O caminho de uma atualização na ramificação é: 
+- criar uma feature branch (ramificação de recurso) da master
+- mandar as alterações
+- submeter o pull request (solicitação de recebimento)
+- discutir a proposta de mudança
+- fundir a feature branch na master
+
+Criando uma nova Branch: 
+
+- ir para o respositório
+- clicar em branch: main (ou master)
+- digite o nome da ramificação desejada e selecione para criar a nova branch
+Fazendo alterações ou commit changes
+
+No GitHub alteraçõe ssalvas são chamads de Commits. Cada commit tem uma mensagem commit associada, que é uma descrição explicando o porque essa particular alteração foi feita. As commit messages capta a história das alterações, então outros colaboradores podem entender o que foi feito. 
+
+Fazendo commit changes:
+- edite qualquer arquivo da ramificação
+- salve a alteraçã o e não esqueça de descrever a alteração em Commit Changes
+
+As alterações serão gravadas na ramificação a parte do main. No main permanecem somente os arquivos em produção, ou seja, que foram devidamente testados e discutidos.
+
+Abrindo a Pull Request
+
+Agora que foram realizadas as alterações na Branch copiada de main pode-se abrir uma pull request.
+Ao abrir uma pull request você está propondo suas alterações e solicitando revisões de parceiros de projeto.
+
+As pull requests mostram diffs, ou diferenças, do conteúdo das duas ramificações. As alterações, adições e subtrações são mostradas em verde e vermelho. 
+
+Não precisa terminar o código para abrir uma Pull Request e iniciar uma discussão.
+
+Pode-se abrir pull request no próprio repositório e analisar você mesmo.
+
+- clique na aba Pull Request e então em New Pull Requests
+- selecione o arquivo que foi modificado e clique em Create Pull Requests
+- dê nome a sua Pull Request e escreva a breve descrição de alteração
+
+Mesclando a Pull Request 	
+Esse é o momento de atribuir o arquivo alterado para a ramificação principal main. 
+
+- Clique no botão verde de mesclar e Confirmar.
+- Exclua a ramificação, já que suas alterações foram incorporadas a main.
